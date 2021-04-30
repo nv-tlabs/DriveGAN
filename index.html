@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>DriveGAN</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="row text-center">
+
+                    <div class="col-lg-15 masthead-subsubheading ">
+                        <h1>DriveGAN: Towards a Controllable High-Quality Neural Simulation</h1>
+                    </div>
+                </div>
+                <br/>
+                <div class="row text-center">
+                    <div class="col-lg-3">
+                        <a href="http://www.cs.toronto.edu/~seung/" style="font-size: 18px">Seung Wook Kim</a><sup> 1,2,3</sup>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="http://www.cs.toronto.edu/" style="font-size: 18px">Jonah Philion</a><sup> 1,2,3</sup>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="http://web.mit.edu/torralba/www/" style="font-size: 18px">Antonio Torralba</a><sup> 4</sup>
+                    </div>
+                    <div class="col-lg-2">
+                        <a href="https://www.cs.utoronto.ca/~fidler/" style="font-size: 18px">Sanja Fidler</a><sup> 1,2,3</sup>
+                    </div>
+                </div>
+                <br/>
+                <div class="row text-center">
+                    <div class="col-lg-3">
+                        NVIDIA<sup>1</sup>
+                    </div>
+                    <div class="col-lg-3">
+                        University of Toronto<sup>2</sup>
+                    </div>
+                    <div class="col-lg-3">
+                        Vector Institute<sup>3</sup>
+                    </div>
+                    <div class="col-lg-2">
+                        MIT</a><sup> 4</sup>
+                    </div>
+                </div>
+                <br/>
+                <div class="row text-center">
+                    <div class="col-sm-12">
+                        <h5 class="font-weight-bold" style="font-size: 22px; color:#76b900">CVPR 2021 (Oral)</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- Abstract-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mx-auto text-lg-left">
+                        <p class="large text-uppercase font-weight-bold">
+                            Abstract
+                        </p>
+                        <p class="large text-muted">
+                            Realistic simulators are critical for training and verifying robotics systems. While most of the contemporary simulators are hand-crafted, a scaleable way to build simulators is to use machine learning to learn how the environment behaves in response to an action, directly from data. In this work, we aim to learn to simulate a dynamic environment directly in pixel-space, by watching unannotated sequences of frames and their associated action pairs. We introduce a novel high-quality neural simulator referred to as DriveGAN that achieves controllability by disentangling different components without supervision. In addition to steering controls, it also includes controls for sampling features of a scene, such as the weather as well as the location of non-player objects. Since DriveGAN is a fully differentiable simulator, it further allows for re-simulation of a given video sequence, offering an agent to drive through a recorded scene again, possibly taking different actions. We train DriveGAN on multiple datasets, including 160 hours of real-world driving data. We showcase that our approach greatly surpasses the performance of previous data-driven simulators, and allows for new features not explored before.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Paper -->
+        <section class="page-section small-section bg-light" id="team">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/paper.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="team-member">
+                            <p class="text-muted">
+                                <br><br>
+                                Seung Wook Kim, Jonah Philion, Antonio Torralba, <br> Sanja Fidler<br>
+                                DriveGAN: Towards a Controllable High-Quality Neural Simulation  <br>
+                                CVPR 2021 <b>(Oral)</b> <br/>
+                                 <a href="#" style="color:#76b900">[Paper - coming soon]</a> &emsp;
+                                 <a href="#" style="color:#76b900">[Code - coming soon]</a>&emsp;
+                                 <a href="assets/bibtex.bib" style="color:#76b900">[Bibtex]</a>&emsp;
+                                 <!-- <a href="# style="color:#76b900">[Video]</a> -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Overview -->
+        <section class="page-section" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h3 class="section-heading text-uppercase">Overview</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <br/>
+                        <div class="portfolio-item">
+                            <img class="img-fluid" width="800" height="1150" src="assets/teaser.gif" alt=""/>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <br/>
+                        <div class="portfolio-item text-center">
+                            <img width="500" height="366" class="img-fluid" src="assets/model.png" alt=""/>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="team-member">
+                            <p class="text-muted text-lg-left">
+                                <br/><br/>
+                                Our objective is to learn a high-quality controllable neural simulator by watching sequences of video frames and their associated actions.
+                                We aim to achieve controllability in two aspects:
+                                1) We assume there is an egocentric agent that can be controlled by a given action.
+                                2) We want to control different aspects of the current scene, for example, by modifying an object or changing the background color.
+
+                                Generating high-quality temporally-consistent image sequences is a challenging problem.
+                                Rather than generating a sequence of frames directly, we split the learning process into two steps, motivated by World Model.
+                                We propose our encoder-decoder architecture that is pre-trained to produce the latent space for images.
+                                It disentangles themes and content while achieving high-quality generation by leveraging a Variational Auto-Encoder (VAE) and Generative Adversarial Networks (GAN).
+                                The Dynamics Engine then learns the latent space dynamics.
+                                It further disentangles action-dependent and action-independent content.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results -->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-8 text-center">
+                        <video width="720" height="446" controls>
+                              <source src="assets/interactive_simulation-2.mp4" type="video/mp4">
+                              Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="col-lg-4 text-lg-left">
+                         <br><br><br><br><br>
+                        <h4 class="section-heading ">
+                         Interactive Simulation
+                    </h4>
+                        <br>
+                        <p class="text-muted text-lg-left">
+                            We build an interactive user interface for users to play with DriveGAN.
+                            It has controls for the steering wheel and speed which can be controlled with the keyboard.
+                            We can randomize different components or use the pre-defined list of themes and objects that users
+                            can selectively use for specific changes.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="page-section" id="portfolio">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-12 col-sm-6 mb-4">
+                        <h3>Baseline Comparisons</h3>
+                        <p class="text-muted text-lg-left">
+                            All models are given the same initial frame as the ground-truth video, and generate frames autoregressively using the same action sequence as the ground-truth video.
+
+                        </p>
+                        <br/>
+                        <h5>Carla</h5>
+
+                        <br/>
+                        <p> &emsp;&emsp; Ground Truth   &emsp;&emsp;&emsp; Action-RNN [1] &emsp;&emsp;&emsp;&emsp; SAVP [2] &emsp;&emsp;&emsp;&emsp;&emsp; World Model [3] &emsp;&emsp;&emsp; GameGAN [4] &emsp;&emsp;&emsp; <b>DriveGAN (Ours)</b></p>
+                        <img src="./assets/carla.gif" alt="animated"/>
+                          <!-- style="float:left;width:320px;height:320px;"/> -->
+
+                        <!-- <p class="text-muted" style="font-size: 12px">
+                            Credits: <br/>1. We modified the version of Pacman from <a href="http://ai.berkeley.edu/project_overview.html">
+                        http://ai.berkeley.edu/project_overview.html</a> to create random mazes for training data. <br />
+                        2. We used <a href="https://github.com/hardmaru/WorldModelsExperiments">https://github.com/hardmaru/WorldModelsExperiments</a> to extract training data for <a href="https://github.com/mwydmuch/ViZDoom">VizDoom</a>
+                        </p> -->
+                    </div>
+                    <br/><br/>
+                    <div class="col-lg-12 col-sm-6 mb-4">
+                        <br/>
+                        <h5>Gibson</h5>
+
+                        <br/>
+                        <p> &emsp;&emsp; Ground Truth   &emsp;&emsp;&emsp; Action-RNN [1] &emsp;&emsp;&emsp;&emsp; SAVP [2] &emsp;&emsp;&emsp;&emsp;&emsp; World Model [3] &emsp;&emsp;&emsp; GameGAN [4] &emsp;&emsp;&emsp; <b>DriveGAN (Ours)</b></p>
+
+                        <img src="./assets/gibson.gif" alt="animated"/>
+
+                    </div>
+                    <br/><br/>
+                    <div class="col-lg-12 col-sm-6 mb-4">
+                        <br/>
+                        <h5>RWD (Real World Driving)</h5>
+
+                        <br/>
+                        <p> &emsp;&emsp; Ground Truth   &emsp;&emsp;&emsp; Action-RNN [1] &emsp;&emsp;&emsp;&emsp; SAVP [2] &emsp;&emsp;&emsp;&emsp;&emsp; World Model [3] &emsp;&emsp;&emsp; GameGAN [4] &emsp;&emsp;&emsp; <b>DriveGAN (Ours)</b></p>
+
+                        <img src="./assets/rwd.gif" alt="animated"/>
+
+                    </div>
+                    <p class="text-muted text-lg-left" style="font-size: 12px">
+                        [1] Chiappa, Silvia, Sébastien Racaniere, Daan Wierstra, and Shakir Mohamed. "Recurrent environment simulators." arXiv preprint arXiv:1704.02254 (2017).
+                        <br/>
+                        [2] Lee, Alex X., Richard Zhang, Frederik Ebert, Pieter Abbeel, Chelsea Finn, and Sergey Levine. "Stochastic adversarial video prediction." arXiv preprint arXiv:1804.01523 (2018).
+                        <br/>
+                        [3] Ha, David, and Jürgen Schmidhuber. "World models." arXiv preprint arXiv:1803.10122 (2018).
+                        <br/>
+                        [4] Kim, Seung Wook, Yuhao Zhou, Jonah Philion, Antonio Torralba, and Sanja Fidler. "Learning to simulate dynamic environments with gamegan." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 1231-1240. 2020.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 text-center">Copyright © 2021 NVIDIA Corporation</div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
